@@ -2,7 +2,8 @@ namespace Friendzone.Models
 {
   public class Follow
   {
-    public string Follower { get; set; }
-    public string Following { get; set; }
+    public int Id { get; set; }
+    public string FollowerId { get; set; }
+    public string FollowingId { get; set; }
   }
 }
